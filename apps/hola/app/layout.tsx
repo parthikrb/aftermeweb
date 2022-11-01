@@ -1,12 +1,12 @@
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html lang="en">
       <head></head>
       <body>{children}</body>
     </html>
-  )
+  );
 }
