@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@bapana/ui": ["libs/ui/src/index.ts"],
+      "@bapana/uikit": ["libs/uikit/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
